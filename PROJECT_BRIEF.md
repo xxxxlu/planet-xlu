@@ -67,16 +67,17 @@
 
 ## 4. 视觉设计方向
 
-- **核心参考**：[landonorris.com](https://landonorris.com)（仪式感开场、大字号衬线、滚动驱动、橙色品牌时刻）
+- **核心参考**：[landonorris.com](https://landonorris.com)（仪式感开场、大字号衬线、滚动驱动、**首屏鼠标轨迹头盔 mask reveal**、法拉利红品牌时刻）
 - **借鉴**：Google Material 3 的系统化（动效时序 / 排版规范 / 色彩 tokens）
-- **取**：情绪 + 节奏 + 大字 + 留白
-- **不取**：自定义 cursor 磁吸 / 全屏 parallax / scroll-jacking
+- **取**：情绪 + 节奏 + 大字 + 留白 + 鼠标轨迹 mask 效果 + 滚动驱动头盔位移
+- **不取**：cursor 被吸附磁吸 / 全屏 parallax / scroll-jacking
 
 ### 品牌方向
-- **品牌色**：**橙色**（Papaya / McLaren 致敬，#ff5400 量级）
-- **基调**：大面积黑 + 纸白，明暗双主题
+- **品牌色**：**法拉利红 Rosso #DC0000**（致敬 Scuderia Ferrari 跃马，全站点缀色 + 关键 CTA + hover 状态）
+- **基调**：**单一深色主题**（黑底 + 纸白字 + 法拉利红点缀）；**不做明暗切换**
 - **字体**：英文衬线 Fraunces Variable + 英文 Sans Inter；中文 霞鹜文楷 + 鸿蒙 Sans SC；等宽 JetBrains Mono
 - **品牌人格**：克制、专业、有态度、有幽默
+- **首屏标志性元素**：**虚拟人像**（boss 的角色化形象，非真实照片）+ **F1 车手头盔图**（若隐若现叠加）+ **鼠标轨迹 mask reveal**（鼠标移入触发头盔跟随轨迹显现，参考 landonorris 首屏交互）
 - **禁忌**：模板化插画、AI 生成的烂大街风格、彩虹渐变
 
 ### 双语
