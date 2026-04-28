@@ -1,4 +1,4 @@
-# PROJECT BRIEF — myspace
+# PROJECT BRIEF — planet-xlu
 
 > boss 个人综合站项目的完整需求 + 已落决策汇总。
 > 给 BMAD V6 工作流当**单一权威输入**。
@@ -18,8 +18,8 @@
 
 ## 1. 项目身份
 
-- **代号**：`myspace`（暂定，未来可改）
-- **路径**：`~/Desktop/project-web/myspace/`
+- **代号**：`planet-xlu`（GitHub 仓库 [`xxxxlu/planet-xlu`](https://github.com/xxxxlu/planet-xlu)）
+- **路径**：`~/Desktop/project-web/myspace/`（本地目录保留旧名 `myspace` 不改，避免 `git mv` 破坏 IDE 索引；代号统一用 `planet-xlu`）
 - **类型**：个人站（非 SaaS、非 B2B）
 - **状态**：从 0 开始，本次重启
 
