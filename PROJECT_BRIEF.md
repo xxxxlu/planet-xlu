@@ -253,7 +253,7 @@ bmad-brainstorming / bmad-product-brief（可选）
 | **M3** | AI Lab + Admin 看板 | 至少一个可交互 demo、`/admin/*` 数据可视化 |
 | **M4+** | 持续进化 | 评估 PostHog、博客系列、全站搜索、视情况升级 |
 
-## 12. 已落决策（8 条 ADR — 本次重启沿用）
+## 12. 已落决策（12 条 ADR — 本次重启沿用）
 
 | ID | 决策 | 选择 |
 |---|---|---|
@@ -262,11 +262,15 @@ bmad-brainstorming / bmad-product-brief（可选）
 | 0003 | i18n | next-intl |
 | 0004 | 定时任务 | GitHub Actions Cron |
 | 0005 | Design Tokens | W3C DTCG + style-dictionary |
-| 0006 | Feature 工作流 | BMAD V6 |
+| 0006 | Feature 工作流 | BMAD V6（轻量化使用，见 0012） |
 | 0007 | 包管理器 | pnpm |
 | 0008 | 埋点 + Admin | 自建 `/api/track` + Turso + `/admin` 只读看板，**不做 CMS** |
+| 0009 | 主题色 & 主题模式 | **法拉利红 Rosso #DC0000** 点缀色 + **单一深色主题**（不做明暗切换）；首屏致敬 landonorris.com 的"虚拟人像 + 头盔 mask reveal" |
+| 0010 | 实现节奏 | **测试先行 + 全栈 story 并行**：每个 story 先写 Playwright E2E + AC 当契约，Claude / Codex 各跑全栈 story（不分前后端 agent），用 git worktree 物理隔离；契约由同 agent 内化 |
+| 0011 | AI 自验证通路 | **Playwright MCP server**（项目级 `.claude/settings.json`）—— 给 Claude "眼睛"：开浏览器 / 点按钮 / 看 console / 截图自比对。Boris 原话："没这个 Claude 写前端等于瞎写" |
+| 0012 | BMAD 流程轻量化 | **PRD 保留权威（已 600 行）；architecture.md ≤ 150 行核心决策表；ux-design 走 prototype-first（Hero / Portfolio 试做后反推 ≤ 150 行视觉规范）；epics/stories 走 GitHub Issues 不写大文档；retrospective 合并到 PR description + Obsidian 周报** |
 
-新 session 重建 docs/ 时，把这 8 条 ADR 一起重建。
+新 session 重建 docs/ 时，把这 12 条 ADR 一起重建。
 
 ## 13. 待决策（Open Questions）
 
